@@ -1,0 +1,82 @@
+main{
+    width: 75%;
+    padding: 20px;
+    overflow: auto;
+    display: flex;
+}
+ul{
+    width: 100%;
+}
+li{
+    position: relative;
+    display : flex;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+li:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.left-detail{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+
+}
+.left-detail h2{
+    margin-top: 0;
+    color: #f8b418;
+}
+.left-detail span{
+    font-weight: bold;
+}
+.name{
+    margin-bottom: -5px;
+    font-size: 15px;
+}
+.job-date{
+    margin-bottom: -5px;
+    font-size: 15px;
+}
+.details{
+    background-color: #14213d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.details:hover{
+    cursor: pointer;
+    background-color: #eff3f9;
+    color: #14213d;
+    border: 1px solid #f8b418;
+}
+#accept{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    height : 30px;
+}
+#reject{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    height : 30px;
+}
+/* .photo-div{
+    position : absolute;
+    right : 15px;
+    top : 1px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    width : 100px;
+    height : 100px;
+} */
